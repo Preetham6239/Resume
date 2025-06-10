@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <div class="container">
+      <h1><img src="images/profile_icon.jpg" alt="Profile Icon" style="width: 100px; height: 100px; border-radius: 50%; margin-right: 10px; vertical-align: middle;"> Preetham B U</h1>
+      <p class="subtitle">Aspiring Developer | Moto Enthusiast | Explorer</p>
+    </div>
+  </header>
+
+  <nav class="main-nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="certifications.html">Certifications</a>
+    <a href="projects.html">Projects</a>
+    <a href="achievements.html">Achievements</a>
+    <a href="contact.html" class="active">Contact</a>
+  </nav>
+
+  <main class="section">
+
+        <h2>Get In Touch</h2>
+        
+        <div class="contact-container">
+            <section class="contact-info">
+                <h3>Contact Information</h3>
+                <ul>
+                    <li>Email: <a href="mailto:Preetham6239@gmail.com">Preetham6239@gmail.com</a></li>
+                    <li>Phone: +91 8217898696</li>
+                    <li>Location: 5/1 3rd cross ksrtc layout mahadeswara nagar herohalli bengaluru 560091</li>
+                </ul>
+            </section>
+            <section>
+            <ul class="contact-list">
+        <img src="images/linkedin.png" alt="LinkedIn">
+        <a href="https://www.linkedin.com/in/preetham-b-u-471a0613b/" target="_blank">LinkedIn</a>
+      
+        <img src="images/youtube.png" alt="YouTube">
+        <a href="https://youtube.com/@preethugowdruvlogs?si=zyRfLsZK-CSdx8T6" target="_blank">YouTube</a>
+      
+        <img src="images/instagram.png" alt="Instagram">
+        <a href="https://www.instagram.com/preethu_gowdru_vlogs/" target="_blank">Instagram</a>
+      
+    </ul> </section>
+            
+            <section class="contact-form">
+                <h3>Send Me a Message</h3>
+                <form action="submit-form.php" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </section>
+        </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Preetham B U. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
